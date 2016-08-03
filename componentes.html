@@ -1,0 +1,52 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aplicando componentes de bootstrap</title>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="bootstrap/css/custom.css" rel="stylesheet" type="text/css" />
+    <srcipt src="bootstrap/js/bootstrap.min.js" type="text/javascript" ></srcipt>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Aplicando componentes de bootstrap</h1>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" >
+        <!-- esto es para los indicadores del slide -->
+        <ul class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active">
+                1
+            </li>
+            <li data-target="#myCarousel" data-slide-to="1">
+                2
+            </li>
+            <li data-target="#myCarousel" data-slide-to="2">
+                3
+            </li>
+        </ul>
+        <!-- esto es para el contenido del slide -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <h1>Titulo aqui 1</h1>
+                <p>Aplicando componentes de bootstrap Aplicando componentes de bootstrap Aplicando componentes de bootstrap</p>
+            </div>
+            <div class="item ">
+                <h1>Titulo aqui 2</h1>
+                <p>Aplicando componentes de bootstrap Aplicando componentes de bootstrap Aplicando componentes de bootstrap</p>
+            </div>
+            <div class="item">
+                <h1>Titulo aqui 3</h1>
+                <p>Aplicando componentes de bootstrap Aplicando componentes de bootstrap Aplicando componentes de bootstrap</p>
+            </div>
+        </div>
+        <!--aqui dibujamos las flechas-->
+        <div >
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</body>
