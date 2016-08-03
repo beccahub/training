@@ -1,0 +1,28 @@
+.hero{
+  background: url(../imagenes/hero3.jpg) no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 650px;
+  .main-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+}
+
+.drive-teacher{
+  .profile{
+    .picture{
+      overflow: hidden;
+      border-radius:50%;
+      width: 150px;
+      border: 3px solid #666;
+      img{
+        width: 100%;
+      }
+    }
+  }
+}

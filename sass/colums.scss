@@ -1,0 +1,71 @@
+/* variables para los screens*/
+$mobile: 420px;
+$tablet: 768px;
+
+.columnas{
+  overflow: hidden;
+}
+.full{
+  width: 100%;
+  overflow: hidden;
+  background: #A9BCF5;
+  margin: 0;
+  padding: 0;
+}
+.col-12{
+  width: 98%;
+  margin: 20px 1%;
+  //background: #45302f;
+  min-height: 40px;
+}
+.col-1{
+  width: 6.33%;
+  margin: 5px 1%;
+  //background: #0066b3;
+  min-height: 40px;
+  float: left;
+}
+.col-3{
+  width: 22.93%;
+  margin: 5px 1%;
+  //background: #3b5998;
+  min-height: 40px;
+  float: left;
+  @media screen and (max-width: $tablet){
+    width: 47.86%;
+  }
+  @media screen and (max-width: $mobile){
+    width: 98%;
+  }
+}
+.col-4{
+  width: 31.33%;
+  margin: 5px 1%;
+  //background: #ffff00;
+  min-height: 40px;
+  float: left;
+}
+.col-6{
+  width: 47.83%;
+  margin: 5px 1%;
+  //background: #ffff00;
+  min-height: 40px;
+  float: left;
+}
+.col-7{
+  width: 54.63%;
+  margin: 5px 1%;
+  //background: red;
+  min-height: 40px;
+  float: left;
+}
+.col-8{
+  width: 64.66%;
+  margin: 5px 1%;
+  //background: green;
+  min-height: 40px;
+  float: left;
+}
+.clear{
+  clear: both;
+}

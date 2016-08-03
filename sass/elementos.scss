@@ -1,0 +1,12 @@
+/*ligthbox*/
+@import "vars";
+
+input[type="text"]{
+  border-radius: 3px;
+  border: 1px solid $grisOscuro;
+  padding: 3px;
+}
+input[type="text"]:focus{
+  border: 1px solid $rojoActivo;
+  box-shadow: none;
+}
