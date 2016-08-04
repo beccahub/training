@@ -1,10 +1,44 @@
 /*estilos personalizados*/
-
-.carousel{
+.internal-section{
+    max-width: 960px;
+    width: 960px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+    .internal-section{
+        width: 100%;
+    }
+}
+.carousel-section{
+    overflow: hidden;
+}
+.carousel-section .carousel{
     background: #666;
     height: 300px;
 }
 .carousel .carousel-inner{
     width: 500px;
     margin: 0 auto;
+}
+
+/*css para carousel circular*/
+.carousel-circular.row{
+
+}
+.carousel-circular .carousel .carousel-inner{
+    width: 25%;
+    margin: 0 auto;
+}
+
+.gallery{
+    overflow: hidden;
+}
+.gallery .row{
+    margin: 20px 0;
+}
+.gallery .row .pic{
+    //margin: 0 10px;
+}
+.gallery .row .pic img{
+    width: 100%;
 }
